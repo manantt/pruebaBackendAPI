@@ -1,0 +1,23 @@
+App\Entity\Empleado:
+  attributes:
+    id:
+      groups: ['empleado', 'club']
+    nombre:
+      groups: ['empleado', 'club']
+    email:
+      groups: ['empleado', 'club']
+    telefono:
+      groups: ['empleado', 'club']
+    salario:
+      groups: ['empleado', 'club']
+    fechaNacimiento:
+      groups: ['empleado', 'club']
+    posicion:
+      groups: ['empleado', 'club']
+    tipoEmpleado:
+      groups: ['empleado', 'club']
+    club:
+      groups: ['empleado']
+    
+
+    

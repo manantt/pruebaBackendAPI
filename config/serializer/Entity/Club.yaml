@@ -1,0 +1,12 @@
+App\Entity\Club:
+  attributes:
+    id:
+      groups: ['club','empleado']
+    nombre:
+      groups: ['club','empleado']
+    escudo:
+      groups: ['club','empleado']
+    limiteSalarial:
+      groups: ['club','empleado']
+    empleados:
+      groups: ['club']
